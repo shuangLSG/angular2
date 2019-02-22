@@ -4,6 +4,8 @@ import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BigHeroDetailComponent,HeroDetailComponent } from './hero-detail.component';
+import { heroSwitchComponents }   from './hero-switch.components';
+import { HeroFormComponent }   from './hero-form.component';
 
 import { ClickDirective } from './click.directive';
 import { SizerComponent } from './sizer.component';
@@ -14,8 +16,9 @@ import { SizerComponent } from './sizer.component';
     HeroDetailComponent,
     BigHeroDetailComponent,
     ClickDirective,
-    SizerComponent
-    
+    SizerComponent,
+    heroSwitchComponents,
+    HeroFormComponent
   ],
   imports: [
     FormsModule,

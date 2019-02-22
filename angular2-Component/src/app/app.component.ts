@@ -112,4 +112,19 @@ export class AppComponent implements OnInit {
     this.heroesWithTrackByCount = trackByCountReset;
     this.heroIdIncrement =1;
   }
+
+  // template reference variable
+  callPhone(value:string){
+    window.alert(`Calling ${value} ...`)
+  }
+  callFax(value:string){
+    window.alert(`Faxing ${value} ...`)
+  }
+
+
+  // Pipe
+  product = {
+    name: 'frimfram',
+    price: 42
+  };
 }
